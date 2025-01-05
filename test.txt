@@ -1,0 +1,5 @@
+GitHub Webhook:
+
+Copy the the URL of the jenkins home page >> in github go to repo settings >> select webhooks >> add webhooks >> format of webhook <`http://0.0.0.0:8080/github-webhook/`>  >> in content type make this as`application json`  >> select any event that you want to trigger the webhook to jenkins server ex. push events >> now in jenkins goto the pipeline configurations and under the build triggers select “GitHub hook trigger for GITScm polling”
+
+Ensure that in SG of jenkins server we had allowed anyone to the port > 8080
