@@ -1,0 +1,5 @@
+Poll SCM:
+
+This is similar to github webhook, here the jenkins server is keep on checking our git repo are there any changes (commit/push) or not. Jenkins to check every minute we need to set cron job on jenkins server
+
+in build trigger select poll scm and mention `* * * * *` to check every min, if there is any chnges it triggers the pipeline
