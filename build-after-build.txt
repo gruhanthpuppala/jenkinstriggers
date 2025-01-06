@@ -1,0 +1,1 @@
+here we are creating a freestyle project or pipeline project and marking as build after another project is build in the build trigger section from the configurations settings of the job
