@@ -1,0 +1,3 @@
+We are scheduling a job with our convenient time when to trigger, this doesn't depends on any other triggers / events / job
+
+These are scheduled on cron job basis
